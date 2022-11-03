@@ -5,3 +5,6 @@ routes.get('/', (req, res) => {
 });
 
 module.exports = routes;
+
+const dotenv = require('dotenv');
+dotenv.config();
