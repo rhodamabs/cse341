@@ -1,0 +1,24 @@
+{"contact1" : {
+    "name": "Rhoda",
+    "Surname":"Mabundu",
+    "Email":"mabundur@gmail.com",
+    "FavoriteColor":"Blue",
+    "Age":"44"
+},
+"contact2":{
+    "name": "Masiya",
+    "Surname":"Mabundu",
+    "Email":"mabundumasiya@gmail.com", 
+    "FavoriteColor":"Black",
+    "Age":"54"
+
+},
+"contact3":{
+    "name": "Rebecca",
+    "Surname":"Mabundu",
+    "Email":"rebeccan@gmail.com",
+    "FavoriteColor":"Red",
+     "Age":"40"
+
+}
+}
