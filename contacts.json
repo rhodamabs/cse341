@@ -3,14 +3,14 @@
     "Surname":"Mabundu",
     "Email":"mabundur@gmail.com",
     "FavoriteColor":"Blue",
-    "Age":"44"
+    "Birthday":"14/11/78"
 },
 "contact2":{
     "name": "Masiya",
     "Surname":"Mabundu",
     "Email":"mabundumasiya@gmail.com", 
     "FavoriteColor":"Black",
-    "Age":"54"
+    "Birthday":"20/10/68"
 
 },
 "contact3":{
@@ -18,7 +18,7 @@
     "Surname":"Mabundu",
     "Email":"rebeccan@gmail.com",
     "FavoriteColor":"Red",
-     "Age":"40"
+     "Birthday":"06/04/82"
 
 }
 }
