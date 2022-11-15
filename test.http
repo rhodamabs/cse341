@@ -1,4 +1,17 @@
-get http://localhost:3000
+get http://localhost:8080/contacts
 ###
+get http://localhost:8080/contacts/6373afc798a767210041809d
 
-post http://localhost:3000
+###
+get http://localhost:8080/contacts/6373afc798a767210041809e
+###
+get http://localhost:8080/contacts/6373afc798a767210041809f
+
+###
+get http://localhost:8080
+###
+post http://localhost:8080/contacts
+###
+put http://localhost:8080/contacts
+###
+delete http://localhost:8080/contacts

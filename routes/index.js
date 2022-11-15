@@ -1,9 +1,6 @@
+const router = require('express').Router();
 
-const routes = require('express').Router();
+router.use('/contacts', require('./contacts'))
 
-routes.get('/', (req, res) => {
-  res.send('Hello Rhoda Mabundu');
-});
-
-module.exports = routes;
+module.exports = router;
 
