@@ -10,8 +10,24 @@ get http://localhost:8080/contacts/6373afc798a767210041809f
 ###
 get http://localhost:8080
 ###
-post http://localhost:8080/contacts
+post http://localhost:8080/contacts HTTP/1.1 content-type: application/json
+ {
+  "_id": "6373afc798a767210041809f",
+  "Name": "Rebecca",
+  "Surname": "Mushayawaro",
+  "Email": "rebeccan@gmail.com",
+  "FavoriteColor": "Red",
+  "Birthday": "06/04/82"
+}
 ###
-put http://localhost:8080/contacts
+put http://localhost:8080/contacts HTTP/1.1 content-type: application/json
+{
+  "_id": "6373afc798a767210041809f",
+  "Name": "Rebecca",
+  "Surname": "Mushayawaro",
+  "Email": "rebeccan@gmail.com",
+  "FavoriteColor": "Red",
+  "Birthday": "06/04/82"
+}
 ###
-delete http://localhost:8080/contacts
+delete http://localhost:8080/contacts HTTP/1.1
