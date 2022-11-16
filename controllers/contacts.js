@@ -46,7 +46,7 @@ const updateContact = async (req, res, next) => {
     Surname: req.body.Surname,
     Email: req.body.Email,
     FavoriteColor: req.body.FavoriteColor,
-    Birthday: req.body.Birthday
+    Birthday: req.body.Birthday,
   };
   const response = await mongodb
     .getDb()
@@ -72,5 +72,4 @@ const deleteContact = async (req, res, next) => {
   }
 };
 
-module.exports = {getAll, getSingle, createContact, updateContact, deleteContact
-};
+module.exports = {getAll, getSingle, createContact, updateContact, deleteContact};
