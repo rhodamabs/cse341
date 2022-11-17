@@ -1,3 +1,4 @@
+// Localhost
 get http://localhost:8080/contacts
 ###
 get http://localhost:8080/contacts/6373afc798a767210041809d
@@ -7,8 +8,6 @@ get http://localhost:8080/contacts/6373afc798a767210041809e
 ###
 get http://localhost:8080/contacts/6373afc798a767210041809f
 
-###
-get http://localhost:8080
 ###
 post http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
@@ -33,3 +32,23 @@ content-type: application/json
 }
 ###
 delete http://localhost:8080/contacts/63761b32d052e8cc82892211 HTTP/1.1
+
+// render
+
+###
+get url HTTP/1.1
+
+###
+get url HTTP/1.1
+
+###
+get url HTTP/1.1
+###
+get url HTTP/1.1
+
+###
+post url HTTP/1.1
+###
+put url HTTP/1.1
+
+delete url HTTP/1.1

@@ -30,7 +30,9 @@
     "mangodb": "^1.0.0",
     "mongoose": "^6.7.1",
     "routes": "^2.1.0",
-    "save": "^2.9.0"
+    "save": "^2.9.0",
+    "swagger-autogen": "^2.22.0",
+    "swagger-ui-express": "^4.6.0"
   },
   "devDependencies": {
     "eslint": "^8.27.0",

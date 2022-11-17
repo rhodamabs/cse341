@@ -21,8 +21,8 @@ app.use((req, res, next) => {
 });
 
 // routes to handle requests for contacts
-app.use('/contacts', contactRoutes);
-app.use('/swagger', swaggerRoutes);
+app.use('/', require('./routes'));
+
 
 app.use((req, res, next) => {
   const error = new Error('Not Found');
