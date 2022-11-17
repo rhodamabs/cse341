@@ -21,14 +21,15 @@ content-type: application/json
   "Birthday": "06/04/82"
 }
 ###
-put http://localhost:8080/contacts HTTP/1.1
+put http://localhost:8080/contacts/63761b10d052e8cc82892210 HTTP/1.1
 content-type: application/json
+
 {
-  "Name": "Rebecca",
+  "Name": "Cecil",
   "Surname": "Mushayawaro",
-  "Email": "rebeccan@gmail.com",
+  "Email": "ccan@gmail.com",
   "FavoriteColor": "Red",
   "Birthday": "06/04/82"
 }
 ###
-delete http://localhost:8080/contacts HTTP/1.1
+delete http://localhost:8080/contacts/63761b32d052e8cc82892211 HTTP/1.1
