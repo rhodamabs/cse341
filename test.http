@@ -20,7 +20,7 @@ content-type: application/json
   "Birthday": "06/04/82"
 }
 ###
-put http://localhost:8080/contacts/63761b10d052e8cc82892210 HTTP/1.1
+put http://localhost:8080/contacts/6376b11338f19b00a85cb3e0 HTTP/1.1
 content-type: application/json
 
 {
@@ -31,24 +31,43 @@ content-type: application/json
   "Birthday": "06/04/82"
 }
 ###
-delete http://localhost:8080/contacts/63761b32d052e8cc82892211 HTTP/1.1
+delete http://localhost:8080/contacts/6376b11338f19b00a85cb3e0 HTTP/1.1
 
 // render
 
 ###
-get url HTTP/1.1
+get https://mabundur341.onrender.com/contacts HTTP/1.1
 
 ###
-get url HTTP/1.1
+get https://mabundur341.onrender.com/contacts/6373afc798a767210041809d HTTP/1.1
 
 ###
-get url HTTP/1.1
+get https://mabundur341.onrender.com/contacts/6373afc798a767210041809e HTTP/1.1
 ###
-get url HTTP/1.1
+get https://mabundur341.onrender.com/contacts/6373afc798a767210041809f HTTP/1.1
 
 ###
-post url HTTP/1.1
-###
-put url HTTP/1.1
+post https://mabundur341.onrender.com/contacts HTTP/1.1
+content-type: application/json
 
-delete url HTTP/1.1
+{
+  "Name": "Rebecca",
+  "Surname": "Mushayawaro",
+  "Email": "rebeccan@gmail.com",
+  "FavoriteColor": "Red",
+  "Birthday": "06/04/82"
+}
+###
+put https://mabundur341.onrender.com/contacts/63761a4d048cecef1d32e11d HTTP/1.1
+content-type: application/json
+
+{
+  "Name": "Sheasby",
+  "Surname": "Mushayawaro",
+  "Email": "sheasby@gmail.com",
+  "FavoriteColor": "Yellow",
+  "Birthday": "06/04/2018"
+}
+
+###
+delete https://mabundur341.onrender.com/contacts/6376b489623b1cd7860f5d1e HTTP/1.1
