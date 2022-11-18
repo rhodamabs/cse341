@@ -1,12 +1,12 @@
 {"contact1" : {
-    "name": "Rhoda",
+    "Name": "Rhoda",
     "Surname":"Mabundu",
     "Email":"mabundur@gmail.com",
     "FavoriteColor":"Blue",
     "Birthday":"14/11/78"
 },
 "contact2":{
-    "name": "Masiya",
+    "Name": "Masiya",
     "Surname":"Mabundu",
     "Email":"mabundumasiya@gmail.com", 
     "FavoriteColor":"Black",
