@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'Temple API'
   },
-  host: 'mabundur341.onrender.com/',
+  host: 'mabundur341.onrender.com',
   schemes: ['https']
 };
 
@@ -14,3 +14,8 @@ const endpointsFiles = ['./routes/index.js'];
 
 // generate swagger.json
 swaggerAutogen(outputFile, endpointsFiles, doc);
+
+// Run server after it gets generated
+// swaggerAutogen(outputFile, endpointsFiles, doc).then(async () => {
+//   await import('./index.js');
+// });

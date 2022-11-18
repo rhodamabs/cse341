@@ -5,12 +5,19 @@
     "description": "Temple API",
     "version": "1.0.0"
   },
-  "host": "mabundur341.onrender.com/",
+  "host": "mabundur341.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
   ],
   "paths": {
+    "/api-docs": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
     "/contacts/": {
       "get": {
         "description": "",
@@ -149,13 +156,6 @@
             "description": "Internal Server Error"
           }
         }
-      }
-    },
-    "/api-docs": {
-      "get": {
-        "description": "",
-        "parameters": [],
-        "responses": {}
       }
     }
   }
