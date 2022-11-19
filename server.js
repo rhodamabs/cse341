@@ -10,12 +10,12 @@ const contactRoutes = require('./routes/contacts');
 const port = process.env.PORT || 8080;
 const app = express();
 
-// routes to handle requests for contacts
-app.use('/', require('./routes'));
 
 // use body-parser to our incoming requests
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+// routes to handle requests for contacts
+app.use('/', require('./routes'));
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   res.setHeader(

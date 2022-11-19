@@ -3,9 +3,9 @@ const swaggerAutogen = require('swagger-autogen')();
 const doc = {
   info: {
     title: 'My API',
-    description: 'Temple API'
+    description: 'Contacts API'
   },
-  host: 'mabundur341.onrender.com',
+  host: 'mabundur341.onrender.com/',
   schemes: ['https']
 };
 
