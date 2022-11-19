@@ -96,7 +96,7 @@
     const response = await mongodb.getDb().db('collection').collection('contacts').remove({ _id: userId }, true);
     console.log(response);
     if (response.deletedCount > 0) {
-      res.status(204).send();
+      res.status(200).send();
     } else {
       res.status(500).json(response.error || 'Some error occurred while deleting the contact.');
     }
