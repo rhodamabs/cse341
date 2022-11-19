@@ -2,6 +2,8 @@
   const ObjectId = require('mongodb').ObjectId;
 
   const getAll = async (req, res, next) => {
+    // #swagger.tags = ['Contacts']
+
     try{
       const result = await mongodb.getDb().db('collection').collection('contacts').find();
       result.toArray().then((lists) => {
@@ -15,6 +17,8 @@
     
 
   const getSingle = async (req, res, next) => {
+    // #swagger.tags = ['Contacts']
+
     try{
       const userId = new ObjectId(req.params.id);
       const result = await mongodb
@@ -33,6 +37,8 @@
     
 
   const createContact = async (req, res, next) => {
+    // #swagger.tags = ['Contacts']
+
     try{
       const contact = {
         Name: req.body.Name,
@@ -53,6 +59,8 @@
 };
 
   const updateContact = async (req, res, next) => {
+    // #swagger.tags = ['Contacts']
+
     try {
       const userId = new ObjectId(req.params.id);
     // be aware of updateOne if you only want to update specific fields
@@ -81,6 +89,8 @@
   };
 
   const deleteContact = async (req, res, next) => {
+    // #swagger.tags = ['Contacts']
+
     try{
       const userId = new ObjectId(req.params.id);
     const response = await mongodb.getDb().db('collection').collection('contacts').remove({ _id: userId }, true);
